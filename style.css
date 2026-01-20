@@ -1,0 +1,47 @@
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:
+  Poppins,sans-serif;}
+body{
+  background:radial-gradient(circle at top,#1b0f38,#120826);
+  color:#fff;
+}
+
+/* NAV */
+.navbar{
+  padding:20px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.logo{
+  font-size:26px;
+  font-weight:700;
+    font-size: 3rem;
+}
+.logo span{
+  color:#d4107f;
+  font-size: 3rem;
+}
+
+
+nav a{
+  margin:0 14px;
+  font-size: 1.4rem;
+  gap: 20px;
+  text-decoration: dashed;
+  color:#cfc9ff;
+}
+.bt{
+  text-align: center;
+  padding:10px 22px;
+  border-radius:30px;
+  font-size: 2rem;
+  background-color:#ff3cac;
+  color:#fff;
+}
+.outline{
+  background:none;
+  border:1px solid #7f6cff;
+} 
