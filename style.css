@@ -45,3 +45,54 @@ nav a{
   background:none;
   border:1px solid #7f6cff;
 } 
+
+
+
+
+/* about */
+#about{
+    padding-top: 130px;
+}
+
+
+/* #about.about-container{
+  width: 1600px;
+  height: 640px;
+} */
+
+
+.section-heading h2{
+  font-size: 4rem;
+}
+#about .about-container {
+    text-align: center;
+    padding: 200px 50px 200px 120px;
+}
+
+#about .about-container .about-info {
+    display: flex;
+    justify-content:space-around;
+}
+
+.about-info .info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575
+}
+.about-info .info-card h1{
+  font-size:4rem;
+}
+
+.section-heading h6 {
+  line-height: 20px;
+  font-size:1rem;
+}
+.section-heading .he{
+  line-height: 148px;
+}
+.about-container .info-card h1{
+  color: #00FF88;
+}
+.about-info{
+  margin:150px auto 120px;
+}
