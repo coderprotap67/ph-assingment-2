@@ -77,7 +77,7 @@ nav a{
 .about-info .info-card p {
     font-size: 20px;
     line-height: 30px;
-    color: #757575
+    color: #757575;
 }
 .about-info .info-card h1{
   font-size:4rem;
@@ -96,3 +96,55 @@ nav a{
 .about-info{
   margin:150px auto 120px;
 }
+
+
+
+.grid-content{
+  background-color: #230E3D;
+}
+.naruto {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card {
+    background: #25144a;
+     border-radius: 40px;
+    padding: 40px;
+    border: 1px solid #3d2b63;
+}
+.grid-container p{
+  color: #757575;
+}
+.card img {
+    width: 40px;
+    margin-bottom: 15px;
+}
+/* Card possiti*/
+.itachi {
+    grid-row: span 2;
+}
+
+.madara {
+    grid-column: span 2;
+}
+
+.obito {
+    grid-column: span 2;
+}
+
+.sisui {
+    grid-column: span 2; 
+}
+
+ .susake{ 
+  grid-column: auto;
+ }
